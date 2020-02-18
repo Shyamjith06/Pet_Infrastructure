@@ -1,6 +1,6 @@
 node {
    stage('Git-Checkout for Teraform') {
-   git 'https://github.com/Shyamjith06/Terraform-1.git'
+   git 'https://github.com/Shyamjith06/Pet_Infrastructure.git'
   }
 
  def project_terraform="Terraform"
